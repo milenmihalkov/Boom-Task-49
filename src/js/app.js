@@ -8,23 +8,26 @@ window.addEventListener("DOMContentLoaded", () => {
  let ccname   = document.createElement('input');
  ccname.type  = 'text';
  ccname.classList.add('input');
- ccname.value = 'Name on card';
  ccname.setAttribute('name', 'ccname');
+ ccname.setAttribute('autocomplete', 'on');
 
  let cardnumber   = document.createElement('input');
  cardnumber.type  = 'number';
  cardnumber.classList.add('input');
  cardnumber.setAttribute('name', 'cardnumber');
+ cardnumber.setAttribute('autocomplete', 'on');
 
  let cvc   = document.createElement('input');
  cvc.type  = 'number';
  cvc.classList.add('input');
  cvc.setAttribute('name', 'cvc');
+ cvc.setAttribute('autocomplete', 'on');
 
  let ccexp   = document.createElement('input');
  ccexp.type  = 'number';
  ccexp.classList.add('input');
  ccexp.setAttribute('name', 'cc-exp');
+ ccexp.setAttribute('autocomplete', 'on');
 
  form.appendChild(ccname);
  form.appendChild(cardnumber);
