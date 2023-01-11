@@ -14,19 +14,16 @@ window.addEventListener("DOMContentLoaded", () => {
  let cardnumber   = document.createElement('input');
  cardnumber.type  = 'number';
  cardnumber.classList.add('input');
- cardnumber.value = 'Card Number';
  cardnumber.setAttribute('name', 'cardnumber');
 
  let cvc   = document.createElement('input');
  cvc.type  = 'number';
  cvc.classList.add('input');
- cvc.value = 'CVC';
  cvc.setAttribute('name', 'cvc');
 
  let ccexp   = document.createElement('input');
  ccexp.type  = 'number';
  ccexp.classList.add('input');
- ccexp.value = 'Credit card expiration';
  ccexp.setAttribute('name', 'cc-exp');
 
  form.appendChild(ccname);
